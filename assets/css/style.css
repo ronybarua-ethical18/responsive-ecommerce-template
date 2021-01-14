@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+/* basic important style list for overriding bootstrap classes start here*/
+.style-customization{
+
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    font-weight:normal;
+    font-size:14px;
+}
+.style-customization h1,h2,h3,h4,h5,h6{
+
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color:#363958;
+}
+.style-customization h1{
+
+    font-size:80px;
+}
+.style-customization h3{
+
+    font-size:48px;
+    
+}
+.style-customization h4{
+
+    font-size:36px;
+    margin-bottom: 0;
+}
+.style-customization h5{
+
+    font-size:24px;
+}
+.style-customization p{
+
+    font-size:16px;
+}
+.style-customization a{
+
+    color:#3C3C3C;
+    font-size:16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.style-customization a:hover{
+
+    color: #0DCAF0;
+}
+.style-customization button{
+
+   background-color: #FA804C;
+   padding:10px 20px;
+   border-radius:20px;
+   color:#fff;
+}
+.style-customization button:hover{
+
+    background-color: #0DCAF0;
+    color:#fff;
+ }
+ .style-customization ul{
+
+    list-style: none;
+    padding:0;
+ }
+ 
+ 
+/* basic style list for overriding bootstrap classes start end*/
+.shoe-image{
+
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+.single-casual-shoes, .single-formal-shoes, .single-service{
+
+    border-radius:30px;
+    border:1px solid #fff;
+}
+.common-margin{
+    margin-top: 100px;
+}
+.card-price{
+
+    background-color: white;
+}
+span{
+
+    color:#FA804C;
+    font-size:40px;
+    font-weight: 900;
+}
+.shoe-image img:hover{
+
+    transform: rotate(10deg) scale(1.2);
+    transition:transform 1s ease-in-out;
+}
+
+.service-image img:hover{
+
+    transform:  scale(.9);
+    transition:transform 1s ease-in-out;
+}
+.our-services .single-service:hover{
+
+    background-color: #3ACAF0;
+    color:#fff;
+    transition: all ease-in-out 0.8s;
+}
+.our-services .single-service:hover h5{
+
+    color:#fff;
+}
+
+/* new arrival section design start here */
+.single-item{
+ 
+    overflow: hidden;
+}
+
+.new-item:hover .single-item img{
+
+    transform:rotate(15deg) scale(1.6);
+    overflow: hidden;
+    transition: transform 1s ease-in-out;
+}
+.item-details-overlay, .item-details{
+
+    display: none;
+}
+.item-details{
+    background: transparent;
+}
+.overlay-color{
+
+    color:#fff;
+}
+.new-item:hover .item-details-overlay{
+
+    display: block;
+    background-color: rgba(0,0,0, 0.5);
+    color:#fff;
+}
+.new-item:hover .item-details{
+
+    display: block;
+}
+/* new arrival section design end here */
+.contact a{
+
+    font-weight:normal;
+}
+.social-links i{
+
+    background-color:#0DCAF0;
+    color:#fff;
+    padding:10px;
+    border-radius: 50%;;
+}
+.social-links i:hover{
+
+    background-color:#FA804C;
+    transition: all ease-in-out 0.3s;
+}
+.subscribe input{
+    border-radius: 20px;
+    padding: 10px;
+}
