@@ -81,7 +81,21 @@ span {
     margin-top: 100px;
 }
 
+.nav-fixed{
+
+    padding:0 8%;
+    background:#fff;
+}
 /* basic style list for overriding bootstrap classes end here*/
+
+
+
+/* product-slider, casual and formal shoes section design start here */
+
+.product-slider{
+   
+    margin-top:100px;
+}
 
 .shoe-image {
     background-color: #F1F1F1;
@@ -102,10 +116,9 @@ span {
     transition: transform 1s ease-in-out;
 }
 
-.service-image img:hover {
-    transform: scale(.9);
-    transition: transform 1s ease-in-out;
-}
+/* casual and formal shoes section design end here */
+
+/* our service section design start here */
 
 .our-services .single-service:hover {
     background-color: #3ACAF0;
@@ -116,6 +129,8 @@ span {
 .our-services .single-service:hover h5 {
     color: #fff;
 }
+
+/* our service section design end here */
 
 /* new arrival section design start here */
 
@@ -164,7 +179,7 @@ span {
     color: #fff;
     padding: 10px;
     border-radius: 50%;
-    ;
+    
 }
 
 .social-links i:hover {
